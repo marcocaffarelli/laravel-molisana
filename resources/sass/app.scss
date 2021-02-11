@@ -25,3 +25,20 @@ header{
         }
     }
 }
+main{
+    background-image: url(/img/fondo-pag-speciali.jpg);
+    h2{
+        color: darkblue;
+        text-shadow: 1px 1px 1px white;
+        text-align: center;
+        padding: 25px 0;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    img{
+        margin: 25px;
+        width: 30%;
+    }
+}
