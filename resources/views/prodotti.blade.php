@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <main>
+    <div class="container_prodotti">
         <h2>LE LUNGHE</h2>
         <div class="cards_container">
             @foreach($dati as $dato)
@@ -44,5 +44,5 @@
                 @endif
             @endforeach
         </div>
-    </main>
+    </div>
 @endsection

@@ -25,7 +25,7 @@ header{
         }
     }
 }
-main{
+.container_prodotti{
     background-image: url(/img/fondo-pag-speciali.jpg);
     h2{
         color: darkblue;
@@ -68,4 +68,135 @@ main{
         }
     }
  
+}
+.container_home{
+    width: 100vw;
+    
+    .parte_superiore{
+        display: flex;
+        height: 500px;
+        
+        .card_grande{
+            width: 50%;
+            height: 100%;
+            position: relative;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            .hover{
+                display: none;
+                width: 100%;
+                height: 100%;
+                p{
+                    font-size: 30px;
+                    color: white;
+                }
+            }
+            &:hover .hover{
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%);
+                background-color: rgba(3, 1, 64, 0.8);
+            }
+        }
+        .container_cards{
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+           
+            .card_piccola{
+                width: 50%;
+                height: 250px;
+                position: relative;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                .hover{
+                    display: none;
+                    width: 100%;
+                    height: 100%;
+                    p{
+                        font-size: 30px;
+                        color: white;
+                    }
+                }
+                &:hover .hover{
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translate(-50%);
+                    background-color: rgba(3, 1, 64, 0.8);
+                }
+            }
+        }
+    }
+
+    .parte_inferiore{
+        display: flex;
+        height: 500px;
+       
+        .card_grande{
+            width: 50%;
+            height: 100%;
+            position: relative;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            .hover{
+                display: none;
+                width: 100%;
+                height: 100%;
+                p{
+                    font-size: 30px;
+                    color: white;
+                }
+            }
+            &:hover .hover{
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%);
+                background-color: rgba(3, 1, 64, 0.8);
+            }
+        }
+        .container_cards{
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+            
+            .card_piccola{
+                width: 50%;
+                height: 250px;
+                position: relative;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                .hover{
+                    display: none;
+                    width: 100%;
+                    height: 100%;
+                    p{
+                        font-size: 30px;
+                        color: white;
+                    }
+                }
+                &:hover .hover{
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translate(-50%);
+                    background-color: rgba(3, 1, 64, 0.8);
+                }
+            }
+        }
+    }
 }
