@@ -1,1 +1,22 @@
-//
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    .logo{
+        text-align: center;
+    }
+    nav{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(177, 210, 129);
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    }
+}
