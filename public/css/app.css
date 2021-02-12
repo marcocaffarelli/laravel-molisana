@@ -200,6 +200,8 @@ header nav .active {
 .container_contatti_main .info_contatti .indirizzo {
   font-size: 25px;
   border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .container_contatti_main .info_contatti .numeri {

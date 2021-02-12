@@ -1,8 +1,12 @@
 <footer>
-   <div class="container_footer">
+    <div class="container_footer">
+        <!-- colonna contenente il logo -->
         <div class="logo_footer">
             <img src="{{ asset('/img/logo.png') }}" alt="">
         </div>
+        <!-- /colonna contenente il logo -->
+
+        <!-- colonna contenente i prodotti -->
         <div class="colonna_prodotti">
             <div>
                 <ul>
@@ -30,7 +34,9 @@
                 </ul>
             </div>
         </div>
+        <!-- /colonna contenente i prodotti -->
 
+        <!-- colonna contente le collezioni da chef e le news -->
         <div class="collezioni_news">
             <ul>
                 <li><h4>COLLEZIONE DA CHEF</h4></li>
@@ -52,7 +58,9 @@
                 <li><a>PRIVACY POLICY</a></li>
             </ul>
         </div>
-
+        <!-- /colonna contente le collezioni da chef e le news -->
+      
+        <!-- colonna contente i contatti -->
         <div class="contatti_footer">
             <ul>
                 <li><strong>RAGIONE SOCIALE:</strong> LA MOLISANA S.P.A.</li>
@@ -67,7 +75,9 @@
                 <li>DATI AZIENDALI:<a href="#">LEGGI DI PIU</a></li>
             </ul>
         </div>
-   </div>
-   <div class="footer_img">
-   </div>
+        <!-- /colonna contente i contatti -->
+
+    </div>
+        <div class="footer_img">
+    </div>
 </footer>
