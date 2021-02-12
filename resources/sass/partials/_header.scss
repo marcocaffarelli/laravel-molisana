@@ -1,0 +1,23 @@
+header{
+    .logo{
+        text-align: center;
+    }
+    nav{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $colore_primario;
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+           
+        }
+        .active{
+            color: darkblue;
+            border-bottom: 4px solid darkblue;
+        }
+    }
+}
