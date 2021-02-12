@@ -155,13 +155,14 @@ header nav .active {
 }
 
 .container_prodotti .cards_container .card .hover img {
-  width: 50px;
+  width: 40px;
   text-align: center;
 }
 
 .container_prodotti .cards_container .card .hover p {
   font-size: 30px;
   font-weight: bold;
+  text-shadow: 1px 1px 1px white;
 }
 
 .container_prodotti .cards_container .card:hover .hover {
