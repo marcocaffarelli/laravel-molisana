@@ -1,0 +1,64 @@
+footer{
+    border-top: 10px solid darkblue;
+    .container_footer{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        .logo_footer{
+            width: 25%;
+            margin-top: 20px;
+        }
+        .colonna_prodotti{
+            width: 25%;
+            div{
+                ul{
+                    list-style: none;
+                    h4{
+                        color:black;
+                        font-size: 25px;
+                        margin: 20px 0;
+                    }
+                    a{
+                        color: lightgrey;
+                    }
+                }
+            }
+        }
+        .collezioni_news{
+            width: 25%;
+            ul{
+                list-style: none;
+                h4{
+                    color:black;
+                    font-size: 25px;
+                    margin: 20px 0;
+                }    
+                a{
+                    color: lightgrey;
+                }
+            }
+        }
+        .contatti_footer{
+            width: 25%;
+            margin-top: 20px;
+            li{
+                list-style: none;
+                color: lightgrey;
+                font-size: 12px;
+                strong, a{
+                    color:grey;
+                }
+ 
+            }
+        }
+    }
+    
+    .footer_img{
+        margin-top: 20px;
+        width: 100%;
+        height: 200px;
+        background-image: url(/img/images.png);
+        background-size: contain;
+    }
+}
