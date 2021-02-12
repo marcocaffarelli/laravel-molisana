@@ -10,7 +10,7 @@
                         <img src="{{ $dato['src'] }}" alt="">
                         <div class="hover">
                             <img src="/img/icon.png" alt="">
-                            <p>{{$dato['descrizione']}}</p>
+                            <p>{{$dato['titolo']}}</p>
                         </div>
                     </div>
                 @endif
@@ -24,7 +24,7 @@
                         <img src="{{ $dato['src'] }}" alt="">
                         <div class="hover">
                             <img src="/img/icon.png" alt="">
-                            <p>{{$dato['descrizione']}}</p>
+                            <p>{{$dato['titolo']}}</p>
                         </div>
                     </div>
                 @endif
@@ -38,7 +38,7 @@
                         <img src="{{ $dato['src'] }}" alt="">
                         <div class="hover">
                             <img src="/img/icon.png" alt="">
-                            <p>{{$dato['descrizione']}}</p>
+                            <p>{{$dato['titolo']}}</p>
                         </div>
                     </div>
                 @endif

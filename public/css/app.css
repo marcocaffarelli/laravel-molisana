@@ -23,9 +23,9 @@ header nav a {
   font-weight: bold;
 }
 
-header nav a:hover {
+header nav .active {
   color: darkblue;
-  text-decoration: underline;
+  border-bottom: 4px solid darkblue;
 }
 
 .container_prodotti {
@@ -62,21 +62,24 @@ header nav a:hover {
 }
 
 .container_prodotti .cards_container .card .hover img {
-  width: 30px;
+  width: 50px;
   text-align: center;
 }
 
 .container_prodotti .cards_container .card .hover p {
-  font-size: 10px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .container_prodotti .cards_container .card:hover .hover {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
-  left: 50%;
-  transform: translate(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  left: 0;
 }
 
 .container_home {
@@ -111,7 +114,9 @@ header nav a:hover {
 }
 
 .container_home .parte_superiore .card_grande:hover .hover {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   left: 50%;
@@ -148,7 +153,9 @@ header nav a:hover {
 }
 
 .container_home .parte_superiore .container_cards .card_piccola:hover .hover {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   left: 50%;
@@ -184,7 +191,9 @@ header nav a:hover {
 }
 
 .container_home .parte_inferiore .card_grande:hover .hover {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   left: 50%;
@@ -221,7 +230,9 @@ header nav a:hover {
 }
 
 .container_home .parte_inferiore .container_cards .card_piccola:hover .hover {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   left: 50%;

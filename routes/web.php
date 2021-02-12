@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+}) ->name('home');
 
 Route::get('prodotti', function () {
     $data = '[
@@ -143,9 +143,9 @@ Route::get('prodotti', function () {
      $dati = json_decode($data, true);
      //var_dump($dati);
     return view('prodotti', compact('dati'));
-});
+}) ->name('prodotti');
 
 Route::get('contatti', function () {
     return view('contatti');
-});
+}) ->name('contatti');
 
