@@ -1,0 +1,29 @@
+.container_contatti_main{
+    .titolo_contatti{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: 100vw;
+        background-image: url(/img/grano.png);
+        h2{
+            color: black;
+            font-size: 70px;
+        }
+    }
+
+    .info_contatti{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 100px 0;
+        .indirizzo{
+            font-size: 25px;
+            border-bottom: 1px solid black ;
+        }
+        .numeri{
+            font-size: 20px;
+        }
+    }
+}

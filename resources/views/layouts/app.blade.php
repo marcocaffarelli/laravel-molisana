@@ -3,6 +3,7 @@
         @include('layouts.header')
         @yield('homeContent')
         @yield('content')
+        @yield('contattiContent')
         @include('layouts.footer')
     </body>
 </html>

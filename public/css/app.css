@@ -175,6 +175,37 @@ header nav .active {
   left: 0;
 }
 
+.container_contatti_main .titolo_contatti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 100vw;
+  background-image: url(/img/grano.png);
+}
+
+.container_contatti_main .titolo_contatti h2 {
+  color: black;
+  font-size: 70px;
+}
+
+.container_contatti_main .info_contatti {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.container_contatti_main .info_contatti .indirizzo {
+  font-size: 25px;
+  border-bottom: 1px solid black;
+}
+
+.container_contatti_main .info_contatti .numeri {
+  font-size: 20px;
+}
+
 footer {
   border-top: 10px solid darkblue;
 }
